@@ -39,6 +39,6 @@ module sr_ff_tb;
 	s=1;r=1;#10;
 	s=0;r=1;#10;
 	s=0;r=0;#10;
-	#100;
+	#100 $finish;
 	end      
 endmodule
