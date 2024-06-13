@@ -31,6 +31,7 @@ module sr_ff_tb;
 	always #5clk=~clk;
 	initial
 	begin
+		$monitor("s:%d, r:%d, q=%d",s,r,q);
 	#50;
 	reset=0;
 	s=0;r=1;#10;
